@@ -1,0 +1,141 @@
+.trending{
+    /* border: solid 2px black; */
+    width: 250px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 20px;
+  
+}
+.Products,.Products1,.Products2,.Products3,.Products4,.Products5,.Products6,.Products7,.Products8,.Products9,
+.Products10,.Products11,.Products12,.Products13,.Products14,.Products15,.Products16,.Products17,.Products18,.Products19,
+.Products20,.Products21,.Products22,.Products23,.Products24,.Products25,.Products26,.Products27,.Products28,.Products29{
+    border: 2px solid black;
+
+    width: 100%;
+    height: 300px;
+      background: white;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  
+}
+
+
+.image-container {
+  position: relative;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.image-container img {
+  width: 130px;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+.heart:hover{
+    background-color: red;
+}
+
+.info h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+.unit-rating {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.rating {
+  color: #fbbf24;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity button {
+  background: #f3f4f6;
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background: none;
+  border: none;
+  color: #555;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Trend-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Trend-pro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-top: 10px;
+}
+.Trend-pro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-top: 10px;
+}
+.Trend-pro3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-top: 10px;
+}
