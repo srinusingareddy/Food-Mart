@@ -1,8 +1,4 @@
-.container{
-    /* border: solid 2px red; */
-    
-   
-}
+
 
 
 
@@ -46,12 +42,7 @@ gap: 60px;
     
 }
 
-.searchbar input{
-    /* height: 40px; */
-    /* width: 200px; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large; */
-}
+
 
 .searchbar i{
     font-size:20px;
