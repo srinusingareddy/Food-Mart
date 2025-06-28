@@ -3,12 +3,13 @@
 
 
 .navbar{
-    
+    width: 100%;
     /* border: solid 2px green; */
    
   /* padding: 50px; */
   display: flex;
-gap: 60px;
+/* gap: 60px; */
+justify-content: space-between;
 
   
 }
