@@ -103,9 +103,15 @@
 .add-to-cart {
   background: none;
   border: none;
-  color: #555;
+  /* color: #555; */
+  color: black;
   font-weight: 500;
   cursor: pointer;
+  background-color: #fbbf24;
+  /* background-color: #555; */
+  padding: 10px;
+  border-radius: 10px;
+
 }
 
 .Trend-pro{
