@@ -13,7 +13,7 @@
 .Products,.Products1,.Products2,.Products3,.Products4,.Products5,.Products6,.Products7,.Products8,.Products9,
 .Products10,.Products11,.Products12,.Products13,.Products14,.Products15,.Products16,.Products17,.Products18,.Products19,
 .Products20,.Products21,.Products22,.Products23,.Products24,.Products25,.Products26,.Products27,.Products28,.Products29{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     width: 100%;
     height: 300px;
@@ -138,4 +138,66 @@
     /* justify-content: space-between; */
     gap: 10px;
     margin-top: 10px;
+}
+
+
+/* For small devices like phones */
+@media (max-width: 480px) {
+  .Trend-pro,
+  .Trend-pro1,
+  .Trend-pro2,
+  .Trend-pro3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Products,
+  .Products1, .Products2, .Products3, .Products4, .Products5,
+  .Products6, .Products7, .Products8, .Products9, .Products10,
+  .Products11, .Products12, .Products13, .Products14, .Products15,
+  .Products16, .Products17, .Products18, .Products19, .Products20,
+  .Products21, .Products22, .Products23, .Products24, .Products25,
+  .Products26, .Products27, .Products28, .Products29 {
+    width: 90%;   /* Reduced width for smaller screens */
+    margin: auto; /* Center the product card */
+    height: auto;
+  }
+
+  .image-container img {
+    width: 100px; /* slightly smaller image for phones */
+  }
+
+  .trending {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .Trend-pro,
+  .Trend-pro1,
+  .Trend-pro2,
+  .Trend-pro3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .Products,
+  .Products1, .Products2, .Products3, .Products4, .Products5,
+  .Products6, .Products7, .Products8, .Products9, .Products10,
+  .Products11, .Products12, .Products13, .Products14, .Products15,
+  .Products16, .Products17, .Products18, .Products19, .Products20,
+  .Products21, .Products22, .Products23, .Products24, .Products25,
+  .Products26, .Products27, .Products28, .Products29 {
+    width: 45%;   /* 2 cards per row */
+    margin: 10px;
+  }
+
+  .trending {
+    font-size: 22px;
+  }
 }
