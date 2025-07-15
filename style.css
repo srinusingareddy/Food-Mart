@@ -706,6 +706,7 @@ overflow: hidden;
     justify-content: space-between;
     
 }
+
 .IndianMenu img,.French img,.Italic img,.Chinese img{
     /* border: solid 2px red; */
     width: 300px;
@@ -717,10 +718,11 @@ overflow: hidden;
     margin-top: 10px;
     
     /* margin-left: 10px; */
-    border-radius: 10%;
+    border-radius: 50%;
     justify-content: space-between;
 
 }
+
 .heading{
     width: 200px;
     height: 30px;
@@ -1195,11 +1197,11 @@ img {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .navbar .searchbar {
     display: none;
   }
- 
+
   
 }
 

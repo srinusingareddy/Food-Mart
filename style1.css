@@ -16,9 +16,10 @@
     /* border: 2px solid black; */
 
     width: 100%;
-    height: 300px;
+    height: auto;
+    /* height: 300px; */
       background: white;
-  width: 250px;
+  /* width: 250px; */
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -37,6 +38,8 @@
 
 .image-container img {
   width: 130px;
+  /* width: 100%;
+  height: auto; */
 }
 
 .heart {
@@ -110,6 +113,7 @@
   background-color: #fbbf24;
   /* background-color: #555; */
   padding: 10px;
+ 
   border-radius: 10px;
 
 }
@@ -199,7 +203,8 @@
   .Products16, .Products17, .Products18, .Products19, .Products20,
   .Products21, .Products22, .Products23, .Products24, .Products25,
   .Products26, .Products27, .Products28, .Products29 {
-    width: 45%;   /* 2 cards per row */
+    /* width: 45%;   2 cards per row */
+    width: 70%;
     margin: 10px;
   }
 
